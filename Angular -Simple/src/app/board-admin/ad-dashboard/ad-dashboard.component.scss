@@ -1,0 +1,127 @@
+@import "../ad-home/ad-home.component.scss";
+
+.calander-content{
+    margin-left: 50rem;
+    margin-top: 1rem;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61") no-repeat center / cover;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: inherit;
+      filter: blur(10px);
+    }
+  }
+
+
+  //table
+  p {
+    font-family: Lato;
+  }
+  table {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .btn-edit {
+    text-align: right;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .table-header {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .button-add-row {
+    background: #1b9e1b;
+    color: #ffffff;
+  }
+
+  .button-remove-rows {
+    background: red;
+    color: #ffffff;
+    margin-right: 5px;
+  }
+
+  .button-remove {
+    color: red;
+  }
+
+  ::ng-deep .mat-form-field-infix {
+    width: 100% !important;
+  }
+
+  .form-input {
+    padding-right: 5px;
+  }
+
+
+  //table
+
+
+  p {
+    font-family: Lato;
+  }
+  table {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .btn-edit {
+    text-align: right;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .table-header {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .button-add-row {
+    background: #1b9e1b;
+    color: #ffffff;
+  }
+
+  .button-remove-rows {
+    background: red;
+    color: #ffffff;
+    margin-right: 5px;
+  }
+
+  .button-remove {
+    color: red;
+  }
+
+  ::ng-deep .mat-form-field-infix {
+    width: 100% !important;
+  }
+
+  .form-input {
+    padding-right: 5px;
+  }
+
+
